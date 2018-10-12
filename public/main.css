@@ -21,7 +21,7 @@
 .navbar + .CRDivMain {
     margin-top: -20px; 
 }
-.CRDivMain .lang-logo {
+.CRDivMain .CRALogo {
     display: block;
     background: #B01302;
     border-radius: 50%;
@@ -31,6 +31,6 @@
     margin: auto;
     border: 2px solid white; 
 }
-.CRDivMain .lang-logo img {
+.CRDivMain .CRALogo img {
     max-width: 100%; 
 }
