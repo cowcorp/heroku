@@ -1,7 +1,7 @@
 # heroku
 Source for cowcorp.herokuapp.com
 
-To do development in github.com:
+To do development in github.com:<br>
 Select the cowcorp/heroku repository. 
 Select the branch dropdown, and change from "master" by typing "Development". 
 Edit multiple files as needed. 
