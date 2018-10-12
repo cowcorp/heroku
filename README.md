@@ -1,2 +1,2 @@
 # heroku
-Source for cowcorp.kerokuapp.com
+Source for cowcorp.herokuapp.com
