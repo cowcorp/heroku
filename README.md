@@ -16,4 +16,4 @@ A Heroku application:<br><ul>
 <li>An application is written in Ruby, Node.js, Java, Python, Clojure, Scala, Go or PHP.</li>
 <li>The application consists of source, makefile-equivalent, and a "procfile" that describes a "dyno formation" (which resultant process(es) to run on how many "dyno" execution sandboxes).</li>
 <li>When that information is deployed to Heroku, Heroku builds a "slug" (adding object files) by using that language's "buildpack". For new languages, custom buildpacks can be created.</li>
-<li>A dyno runs an "execution-release": that slug plus configuration variable settings</li></ul> 
+<li>A dyno runs a "execution-release" (development or production): that slug plus configuration variable settings.</li></ul> 
