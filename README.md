@@ -6,11 +6,11 @@ If that were somehow to ever get destroyed, it could be re-generated from a temp
 That re-generation is possible because this source code is hosted in github, and app.json specifies the template.
 Clicking here <a href="https://heroku.com/deploy?template=https://github.com/cowcorp/heroku"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a> causes the re-generation (this button's URL could have skipped its template setting, because the URL refers to itself).
 </p>
-<p>To do development in github.com:<ul>
-<li>Select the cowcorp/heroku repository.</li>
+<p>To do development in github.com:</p>
+<ul>asdf<li>Select the cowcorp/heroku repository.</li>
 <li>Select the branch dropdown, and change from "master" by typing "Development".</li>
 <li>Edit multiple files as needed.</li>
-<li>Test these edits by going to Heroku's pipeline page, dropdown the cowcorp-development menu, and selecting to (manually) deploy that branch.</li></ul></p>
+<li>Test these edits by going to Heroku's pipeline page, dropdown the cowcorp-development menu, and selecting to (manually) deploy that branch.</li></ul>
 <p>When the development is ready for production:<ul>
 <li>Edit configuration variables. Source code condition statements can use those settings, by reading those settings via environment variables.</li>
 <li>In github.com: go to the top level of cowcorp/heroku repository, create a new PullRequest, select SquashAndMerge (and confirm that), and then delete "Development" branch when suggested.</li>
