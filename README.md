@@ -1,18 +1,17 @@
 # heroku
-Source for cowcorp.herokuapp.com<br>
-<br>
+<p>Source for cowcorp.herokuapp.com</p>
+<p>
 My (cowcorpSalesforce@gmail.com account's) Heroku tool already contains a "cowcorp" project for building cowcorp.herokuapp.com (things like knowing which external add-ons are needed).
 If that were somehow to ever get destroyed, it could be re-generated from a template.
 That re-generation is possible because this source code is hosted in github, and app.json specifies the template.
 Clicking here <a href="https://heroku.com/deploy?template=https://github.com/cowcorp/heroku"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a> causes the re-generation (this button's URL could skip its template setting, in which case it refers to itself).
-<br>
-To do development in github.com:<br><ul>
+</p>
+<p>To do development in github.com:</p><ul>
 <li>Select the cowcorp/heroku repository.</li>
 <li>Select the branch dropdown, and change from "master" by typing "Development".</li>
 <li>Edit multiple files as needed.</li>
 <li>Test these edits by going to Heroku's pipeline page, dropdown the cowcorp-development menu, and selecting to (manually) deploy that branch.</li></ul>
-<br>
-When the development is ready for production:<br><ul>
+<p>When the development is ready for production:</p><ul>
 <li>Edit configuration variables. Source code condition statements can use those settings, by reading those settings via environment variables.</li>
 <li>In github.com: go to the top level of cowcorp/heroku repository, create a new PullRequest, select SquashAndMerge (and confirm that), and then delete "Development" branch when suggested.</li>
 <li>Heroku's production pipeline stage is set to automatically build when it detects this change to github's "master" branch.</li></ul>
