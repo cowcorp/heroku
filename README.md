@@ -8,12 +8,12 @@ To do development in github.com:<br><ul>
 <li>Test these edits by going to Heroku's pipeline page, dropdown the cowcorp-development menu, and selecting to (manually) deploy that branch.</li></ul>
 <br>
 When the development is ready for production:<br><ul>
-<li>Edit configuration variables. Source code switches based on those settings, by reading those settings via environment variables.</li>
+<li>Edit configuration variables. Source code condition statements can use those settings, by reading those settings via environment variables.</li>
 <li>In github.com: go to the top level of cowcorp/heroku repository, create a new PullRequest, select SquashAndMerge (and confirm that), and then delete "Development" branch when suggested.</li>
 <li>Heroku's production pipeline stage is set to automatically build when it detects this change to github's "master" branch.</li></ul>
 <br>
-A Heroku application is:<br><ul>
-<li>It is written in Ruby, Node.js, Java, Python, Clojure, Scala, Go or PHP.</li>
-<li>It consists of source, makefile-equivalent, and a "procfile" that describes a "dyno formation" (which resultant process(es) to run on how many "dyno" execution sandboxes).</li>
+A Heroku application:<br><ul>
+<li>An application is written in Ruby, Node.js, Java, Python, Clojure, Scala, Go or PHP.</li>
+<li>The application consists of source, makefile-equivalent, and a "procfile" that describes a "dyno formation" (which resultant process(es) to run on how many "dyno" execution sandboxes).</li>
 <li>When that information is deployed to Heroku, Heroku builds a "slug" (adding object files) by using that language's "buildpack". For new languages, custom buildpacks can be created.</li>
-<li>The process (an "execution-release") a dyno runs consists of that slug plus configuration variable settings</li></ul> 
+<li>A dyno runs an "execution-release": that slug plus configuration variable settings</li></ul> 
