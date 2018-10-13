@@ -7,15 +7,15 @@ That re-generation is possible because this source code is hosted in github, and
 Clicking here <a href="https://heroku.com/deploy?template=https://github.com/cowcorp/heroku"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a> causes the re-generation (this button's URL could have skipped its template setting, because the URL refers to itself).
 </p>
 <p>To do development in github.com:</p>
-<ul>asdf<li>Select the cowcorp/heroku repository.</li>
+<ul><li>Select the cowcorp/heroku repository.</li>
 <li>Select the branch dropdown, and change from "master" by typing "Development".</li>
 <li>Edit multiple files as needed.</li>
 <li>Test these edits by going to Heroku's pipeline page, dropdown the cowcorp-development menu, and selecting to (manually) deploy that branch.</li></ul>
-<p>When the development is ready for production:<ul>
-<li>Edit configuration variables. Source code condition statements can use those settings, by reading those settings via environment variables.</li>
+<p>When the development is ready for production:</p>
+<ul><li>Edit configuration variables. Source code condition statements can use those settings, by reading those settings via environment variables.</li>
 <li>In github.com: go to the top level of cowcorp/heroku repository, create a new PullRequest, select SquashAndMerge (and confirm that), and then delete "Development" branch when suggested.</li>
-<li>Heroku's production pipeline stage is set to automatically build when it detects this change to github's "master" branch.</li></ul></p>
-<br>
+<li>Heroku's production pipeline stage is set to automatically build when it detects this change to github's "master" branch.</li></ul>
+<p>
 A Heroku application:<br><ul>
 <li>An application is written in Ruby, Node.js, Java, Python, Clojure, Scala, Go or PHP.</li>
 <li>The application consists of source, makefile-equivalent, and a "procfile" that describes a "dyno formation" (which resultant process(es) to run on how many "dyno" execution Unix sandboxes). If the process is named "web", then it can receive HTTP traffic.</li>
