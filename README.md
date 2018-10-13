@@ -12,5 +12,6 @@ When the development is ready for production:<br><ul>
 <li>Heroku's production pipeline stage is set to automatically build when it detects this change to github's "master" branch.</li></ul>
 <br>
 A Heroku application is:<br><ul>
-<li>Written in Ruby, Node.js, Java, Python, Clojure, Scala, Go or PHP.</li>
-<li>Consists of source, makefile-equivalent, and a "procfile" that describe what to execute.</li></ul> 
+<li>It is written in Ruby, Node.js, Java, Python, Clojure, Scala, Go or PHP.</li>
+<li>It consists of source, makefile-equivalent, and a "procfile" that describes a "dyno formation" (which resultant process(es) to run on how many "dyno" execution sandboxes).</li>
+<li>When that information is deployed to Heroku, Heroku builds a "slug" (adding object files) by using that language's "buildpack". For new languages, custom buildpacks can be created.</li></ul> 
