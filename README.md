@@ -4,7 +4,7 @@
 My (cowcorpSalesforce@gmail.com account's) Heroku tool already contains a "cowcorp" project for building cowcorp.herokuapp.com (things like knowing which external add-ons are needed).
 If that were somehow to ever get destroyed, it could be re-generated from a template.
 That re-generation is possible because this source code is hosted in github, and app.json specifies the template.
-Clicking here <a href="https://heroku.com/deploy?template=https://github.com/cowcorp/heroku"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a> causes the re-generation (this button's URL could skip its template setting, in which case it refers to itself).
+Clicking here <a href="https://heroku.com/deploy?template=https://github.com/cowcorp/heroku"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a> causes the re-generation (this button's URL could have skipped its template setting, because the URL refers to itself).
 </p>
 <p>To do development in github.com:</p><ul>
 <li>Select the cowcorp/heroku repository.</li>
