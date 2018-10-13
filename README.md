@@ -1,5 +1,5 @@
 # heroku
-<p>Source for cowcorp.herokuapp.com</p>
+<p>Source for <code>cowcorp.herokuapp.com</code></p>
 <p>
 My (cowcorpSalesforce@gmail.com account's) Heroku tool already contains a "cowcorp" project for building cowcorp.herokuapp.com (things like knowing which external add-ons are needed).
 If that were somehow to ever get destroyed, it could be re-generated from a template.
