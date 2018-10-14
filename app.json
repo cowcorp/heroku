@@ -1,5 +1,5 @@
 {
-    "name": "cowcorp-template",
-    "description": "Add cowcorp into your computer's local Heroku environment",
-    "repository": "https://github.com/cowcorp/heroku"
+    "name": "cowcorp-opensource",
+    "description": "Add cowcorp-opensource project into your Heroku tool (specifies things like add-ons it needs)",
+    "repository": "https://github.com/cowcorp/cowcorp-opensource.herokuapp.com"
 }
