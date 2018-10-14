@@ -8,12 +8,12 @@ Clicking here <a href="https://heroku.com/deploy?template=https://github.com/cow
 </p>
 <p>To do development in github.com:</p>
 <ul><li>Select the <nobr><code>cowcorp/heroku</code></nobr> repository.</li>
-<li>Select the branch dropdown, and change from "master" by typing "Development".</li>
+<li>Select the branch dropdown, and change from "master" by typing "development".</li>
 <li>Edit multiple files as needed.</li>
 <li>Test these edits by going to Heroku's pipeline page, dropdown the cowcorp-development menu, and selecting to (manually) deploy that branch.</li></ul>
 <p>When the development is ready for production:</p>
 <ul><li>Edit configuration variables. Source code condition statements can use those settings, by reading those settings via environment variables.</li>
-<li>In <nobr><code>github.com</code>:</nobr> go to the top level of <nobr><code>cowcorp/heroku</code></nobr> repository, create a new PullRequest, select SquashAndMerge (and confirm that), and then delete "Development" branch when suggested.</li>
+<li>In <nobr><code>github.com</code>:</nobr> go to the top level of <nobr><code>cowcorp/heroku</code></nobr> repository, create a new PullRequest, select SquashAndMerge (and confirm that), and then delete "development" branch when suggested.</li>
 <li>Heroku's production pipeline stage is set to automatically build when it detects this change to github's "master" branch.</li></ul>
 <p>A Heroku application:</p>
 <ul><li>An application is written in Ruby, Node.js, Java, Python, Clojure, Scala, Go or PHP.</li>
