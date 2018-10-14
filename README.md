@@ -1,10 +1,10 @@
-# heroku
-<p>Source for <nobr><code>cowcorp.herokuapp.com</code></nobr></p>
+# cowcorp/cowcorp-opensource.herokuapp.com
+<p>Source for <nobr><code>cowcorp-opensource.herokuapp.com</code></nobr></p>
 <p>
-My <nobr>(<code>cowcorpSalesforce@gmail.com</code> account's) Heroku</nobr> tool already contains a "cowcorp" project for building <nobr><code>cowcorp.herokuapp.com</code></nobr> (things like knowing which external add-ons are needed).
+My <nobr>(<code>cowcorpSalesforce@gmail.com</code> account's) Heroku</nobr> tool already contains a "cowcorp-opensource" project for building <nobr><code>cowcorp-opensource.herokuapp.com</code></nobr> (things like knowing which external add-ons are needed).
 If that were somehow to ever get destroyed, it could be re-generated from a template.
-That re-generation is possible because this source code is hosted in github, and app.json specifies the template.
-Clicking here <a href="https://heroku.com/deploy?template=https://github.com/cowcorp/heroku"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a> causes the re-generation (this button's URL could have skipped its <nobr><code>template</code></nobr> setting, because the URL refers to itself).
+That re-generation is possible because this opensource source code is hosted in github, and app.json specifies the template.
+Clicking here <a href="https://heroku.com/deploy?template=https://github.com/cowcorp/cowcorp-opensource.herokuapp.com"><img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy"></a> causes the re-generation (this button's URL could have skipped its <nobr><code>template</code></nobr> setting, because the URL refers to itself).
 </p>
 <p>To do development in github.com:</p>
 <ul><li>Select the <nobr><code>cowcorp/heroku</code></nobr> repository.</li>
